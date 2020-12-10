@@ -19,5 +19,24 @@ namespace CalcCas2
             Console.WriteLine(calc.Compare(b, c));
             _ = Console.ReadLine();
         }
+
+        class Calc
+        {
+            string Name;
+            public Calc(string name)
+            {
+                Name = name;
+            }
+
+            public int Add(int a, int b)
+            {
+                return a + b;
+            }
+            public string Compare(int x, int y)
+            {
+                if (x == y) return $"{x} e ednakvo na {y}";
+                return x > y ? $"{x} e pogolemo od {y}" : $"{x} e pomalo od {y}";
+            }
+        }
     }
 }
