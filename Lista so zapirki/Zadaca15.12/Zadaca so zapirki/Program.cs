@@ -25,6 +25,7 @@ namespace Zadaca_so_zapirki
                 while (lista[i] != ',')
                 {
                     novBroj += lista[i];
+                    if (i == lista.Length - 1) break;
                     i++;
                 }
                 sortiranaLista.Add(Convert.ToInt32(novBroj));
