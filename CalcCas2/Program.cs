@@ -11,7 +11,7 @@ namespace CalcCas2
             var b = 5;
             var c = 2;
 
-            var calc = new Calc("Casio");
+            var calc = new Calc("Masio");
 
             Console.WriteLine("Zbirot od a i b e " + calc.Add(a, b));
             Console.WriteLine(calc.Compare(a, b));
