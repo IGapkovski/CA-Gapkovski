@@ -35,34 +35,40 @@ namespace ZadacaZapirki
 
         public static List<int> ParseTextNumbers(string text)
         {
+            var stringListaNaBroevi = text.Split(',').ToList();
             var listaNaBroevi = new List<int>();
+            foreach(string broj in stringListaNaBroevi)
+            {
+                int validenBroj;
+                if (Int32.TryParse(broj, out validenBroj)) listaNaBroevi.Add(validenBroj);
+            }
 
             //String e char array, zatoa moze da iterirame so foreach
-            var tempBrojString = "";
-            for (int i = 0; i < text.Length; i++)
-            {
-                if (text[i] != ',')
-                {
-                    tempBrojString = tempBrojString + text[i];
-                }
+            //var tempBrojString = "";
+            //for (int i = 0; i < text.Length; i++)
+            //{
+            //    //if (text[i] != ',')
+            //    //{
+            //    //    tempBrojString = tempBrojString + text[i];
+            //    //}
 
-                if (text[i] == ',' || i == text.Length - 1)
-                {
-                    try
-                    {
-                        listaNaBroevi.Add(Convert.ToInt32(tempBrojString));
-                        tempBrojString = "";
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine("Nevaliden vnes na podatok i ovoj ke bide preskoknat: " + tempBrojString);
-                    }
-                    finally
-                    {
-                        tempBrojString = "";
-                    }
-                }
-            }
+            //    //if (text[i] == ',' || i == text.Length - 1)
+            //    //{
+            //    //    try
+            //    //    {
+            //    //        listaNaBroevi.Add(Convert.ToInt32(tempBrojString));
+            //    //        tempBrojString = "";
+            //    //    }
+            //    //    catch (Exception ex)
+            //    //    {
+            //    //        Console.WriteLine("Nevaliden vnes na podatok i ovoj ke bide preskoknat: " + tempBrojString);
+            //    //    }
+            //    //    finally
+            //    //    {
+            //    //        tempBrojString = "";
+            //    //    }
+            //    //}
+            //}
 
             return listaNaBroevi;
         }
