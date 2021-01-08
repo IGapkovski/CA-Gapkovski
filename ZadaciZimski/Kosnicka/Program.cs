@@ -19,11 +19,11 @@ namespace Kosnicka
             {
                 var artikl = new Proizvod();
                 Console.WriteLine($"-------Vnesi artikl {i + 1}-------");
-                Console.WriteLine("Vnesi ime na proizvod: ");
+                Console.Write("Vnesi ime na proizvod: ");
                 artikl.Ime = Console.ReadLine();
-                Console.WriteLine("Vnesi cena: ");
+                Console.Write("Vnesi cena: ");
                 artikl.Cena = decimal.Parse(Console.ReadLine());
-                Console.WriteLine("Vnesi kolicina: ");
+                Console.Write("Vnesi kolicina: ");
                 artikl.Kolicina = int.Parse(Console.ReadLine());
                 artikli.Add(artikl);
             }
