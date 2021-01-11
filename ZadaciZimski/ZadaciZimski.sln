@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dogovor", "Dogovor\Dogovor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabrika", "Fabrika\Fabrika.csproj", "{E09DB48A-E6BA-4360-AF99-F7623BA2D7D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaslovnaStranica", "NaslovnaStranica\NaslovnaStranica.csproj", "{AB30EFCF-6525-4179-B91B-6468FF8D6D79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E09DB48A-E6BA-4360-AF99-F7623BA2D7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E09DB48A-E6BA-4360-AF99-F7623BA2D7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E09DB48A-E6BA-4360-AF99-F7623BA2D7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB30EFCF-6525-4179-B91B-6468FF8D6D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB30EFCF-6525-4179-B91B-6468FF8D6D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB30EFCF-6525-4179-B91B-6468FF8D6D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB30EFCF-6525-4179-B91B-6468FF8D6D79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
