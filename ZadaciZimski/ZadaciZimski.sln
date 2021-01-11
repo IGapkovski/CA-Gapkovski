@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Film", "Film\Film.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UreduvanjeDom", "UreduvanjeDom\UreduvanjeDom.csproj", "{A2E455C7-183C-4488-A179-E4FFC54C7E80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogovor", "Dogovor\Dogovor.csproj", "{0BA0EC4D-4AA6-4613-952D-26C3A7942CAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A2E455C7-183C-4488-A179-E4FFC54C7E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2E455C7-183C-4488-A179-E4FFC54C7E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2E455C7-183C-4488-A179-E4FFC54C7E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA0EC4D-4AA6-4613-952D-26C3A7942CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA0EC4D-4AA6-4613-952D-26C3A7942CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA0EC4D-4AA6-4613-952D-26C3A7942CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA0EC4D-4AA6-4613-952D-26C3A7942CAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
