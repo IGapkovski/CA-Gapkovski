@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UreduvanjeDom", "Ureduvanje
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dogovor", "Dogovor\Dogovor.csproj", "{0BA0EC4D-4AA6-4613-952D-26C3A7942CAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabrika", "Fabrika\Fabrika.csproj", "{E09DB48A-E6BA-4360-AF99-F7623BA2D7D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fabrika", "Fabrika\Fabrika.csproj", "{E09DB48A-E6BA-4360-AF99-F7623BA2D7D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaslovnaStranica", "NaslovnaStranica\NaslovnaStranica.csproj", "{AB30EFCF-6525-4179-B91B-6468FF8D6D79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaslovnaStranica", "NaslovnaStranica\NaslovnaStranica.csproj", "{AB30EFCF-6525-4179-B91B-6468FF8D6D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportskiEkipi", "SportskiEkipi\SportskiEkipi.csproj", "{8A15B431-B73F-49EF-87B8-725457A1A675}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{AB30EFCF-6525-4179-B91B-6468FF8D6D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB30EFCF-6525-4179-B91B-6468FF8D6D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB30EFCF-6525-4179-B91B-6468FF8D6D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A15B431-B73F-49EF-87B8-725457A1A675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A15B431-B73F-49EF-87B8-725457A1A675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A15B431-B73F-49EF-87B8-725457A1A675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A15B431-B73F-49EF-87B8-725457A1A675}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
