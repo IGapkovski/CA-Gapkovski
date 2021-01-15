@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaslovnaStranica", "Naslovn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportskiEkipi", "SportskiEkipi\SportskiEkipi.csproj", "{8A15B431-B73F-49EF-87B8-725457A1A675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MojTermin", "Moj\MojTermin.csproj", "{4F5F619C-B7F6-43FA-801F-9C2971193EA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MojTermin", "Moj\MojTermin.csproj", "{4F5F619C-B7F6-43FA-801F-9C2971193EA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vraboten", "Vraboten\Vraboten.csproj", "{9AC77B33-C983-4D12-BEBD-A808564FB53B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vraboten", "Vraboten\Vraboten.csproj", "{9AC77B33-C983-4D12-BEBD-A808564FB53B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igroteka", "Igroteka\Igroteka.csproj", "{2BFCE5DD-A299-4127-B63B-DD40ACA9782F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{9AC77B33-C983-4D12-BEBD-A808564FB53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AC77B33-C983-4D12-BEBD-A808564FB53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AC77B33-C983-4D12-BEBD-A808564FB53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFCE5DD-A299-4127-B63B-DD40ACA9782F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFCE5DD-A299-4127-B63B-DD40ACA9782F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFCE5DD-A299-4127-B63B-DD40ACA9782F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFCE5DD-A299-4127-B63B-DD40ACA9782F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
