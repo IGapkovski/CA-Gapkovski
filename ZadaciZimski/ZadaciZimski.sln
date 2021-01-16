@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igroteka", "Igroteka\Igrote
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork", "SocialNetwork\SocialNetwork.csproj", "{4D0D07C4-DDB1-4329-9F16-9C872BC56449}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transakcii", "Transakcii\Transakcii.csproj", "{7E635327-5120-4CC7-AEEB-1CC36CB79229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{4D0D07C4-DDB1-4329-9F16-9C872BC56449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D0D07C4-DDB1-4329-9F16-9C872BC56449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D0D07C4-DDB1-4329-9F16-9C872BC56449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E635327-5120-4CC7-AEEB-1CC36CB79229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E635327-5120-4CC7-AEEB-1CC36CB79229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E635327-5120-4CC7-AEEB-1CC36CB79229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E635327-5120-4CC7-AEEB-1CC36CB79229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
