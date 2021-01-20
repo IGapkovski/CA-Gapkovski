@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialNetwork", "SocialNetw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transakcii", "Transakcii\Transakcii.csproj", "{7E635327-5120-4CC7-AEEB-1CC36CB79229}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avtomobil", "Avtomobil\Avtomobil.csproj", "{1B41D88F-B537-4880-A192-157348A3E383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avtomobil", "Avtomobil\Avtomobil.csproj", "{1B41D88F-B537-4880-A192-157348A3E383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoncevSistem", "SoncevSistem\SoncevSistem.csproj", "{45460CB4-72E3-40B8-AEE4-75D9A5C5E2FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{1B41D88F-B537-4880-A192-157348A3E383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B41D88F-B537-4880-A192-157348A3E383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B41D88F-B537-4880-A192-157348A3E383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45460CB4-72E3-40B8-AEE4-75D9A5C5E2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45460CB4-72E3-40B8-AEE4-75D9A5C5E2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45460CB4-72E3-40B8-AEE4-75D9A5C5E2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45460CB4-72E3-40B8-AEE4-75D9A5C5E2FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
