@@ -10,7 +10,18 @@ namespace Transakcii
         {
             Valuta = valuta;
         }
-        public string Valuta { get; set; }
+        private string valuta;
+        public string Valuta 
+        { 
+            get 
+            { return valuta; }
+            set 
+            { if (value == "EUR" || value == "USD")
+                    valuta = value;
+                  else 
+                    throw new NotSupportedCurrencyException();
+            }
+        }
         public override void Pecati()
         {
             if (Valuta =="EUR")

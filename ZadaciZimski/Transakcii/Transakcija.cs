@@ -10,8 +10,30 @@ namespace Transakcii
         {
             Den = den; Mesec = mesec; Godina = godina; Sredstva = sredstva;
         }
-        public int Den { get; set; }
-        public int Mesec { get; set; }
+        private int den, mesec;
+
+        public int Den
+        {
+            get
+            { return den; }
+            set
+            {
+                if (value >= 1 && value <= 31)
+                    den = value;
+                else throw new InvalidDateException();
+            }
+        }
+        public int Mesec
+        {
+            get
+            { return mesec; }
+            set
+            {
+                if (value >= 1 && value <= 12)
+                    den = value;
+                else throw new InvalidDateException();
+            }
+        }
         public int Godina { get; set; }
         public decimal Sredstva { get; set; }
         public static decimal EUR { get; set; } = 61M;
