@@ -30,7 +30,7 @@ namespace Transakcii
             set
             {
                 if (value >= 1 && value <= 12)
-                    den = value;
+                    mesec = value;
                 else throw new InvalidDateException();
             }
         }

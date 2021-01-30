@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avtomobil", "Avtomobil\Avto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoncevSistem", "SoncevSistem\SoncevSistem.csproj", "{45460CB4-72E3-40B8-AEE4-75D9A5C5E2FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nedviznina", "Nedviznina\Nedviznina.csproj", "{DDA41CFB-CDDB-47C9-ACEE-1980388E135C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nedviznina", "Nedviznina\Nedviznina.csproj", "{DDA41CFB-CDDB-47C9-ACEE-1980388E135C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBA", "NBA\NBA.csproj", "{6BB5F67C-8CB6-4546-A2C5-F5DD48DB5136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{DDA41CFB-CDDB-47C9-ACEE-1980388E135C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDA41CFB-CDDB-47C9-ACEE-1980388E135C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDA41CFB-CDDB-47C9-ACEE-1980388E135C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB5F67C-8CB6-4546-A2C5-F5DD48DB5136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB5F67C-8CB6-4546-A2C5-F5DD48DB5136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB5F67C-8CB6-4546-A2C5-F5DD48DB5136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB5F67C-8CB6-4546-A2C5-F5DD48DB5136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
