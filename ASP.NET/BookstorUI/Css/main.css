@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+}
+
+.top-categories{
+    background-color: lightgray;
+    padding: 10vh 2vw;
+    text-align: center;
+}
+
+.book-container {
+    padding: 4vh 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-container img {
+    height: 200px;
+}
+
+.card {
+    margin: 2vw 3vh;
+}
+
+.books-category, .category-contaier{
+    padding: 5vh 2vw;
+}
+
